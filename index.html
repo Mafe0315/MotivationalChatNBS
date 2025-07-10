@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NBS EduConnect – Motivation Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="chatbox">
+    <div class="header">
+      <img src="https://img.icons8.com/color/48/000000/training.png" alt="Training Icon" style="vertical-align: middle;" />
+      <span style="font-size: 20px; font-weight: bold; margin-left: 10px;">NBS EduConnect</span>
+    </div>
+
+    <div class="messages" id="messages"></div>
+
+    <div class="input-area">
+      <input type="text" id="input" placeholder="Type here..." />
+      <button onclick="sendMessage()">Send</button>
+    </div>
+  </div>
+
+  <!-- Sounds -->
+  <audio id="send-sound" src="https://notificationsounds.com/storage/sounds/file-sounds-1157-pristine.mp3"></audio>
+  <audio id="bot-sound" src="https://notificationsounds.com/storage/sounds/file-sounds-1119-message-pop.mp3"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
